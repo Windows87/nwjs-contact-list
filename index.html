@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div id="header">
+      <input type="text" id="search-input" onkeyup="onSearchChange(event)" placeholder="Search.." />
+      <span onclick="openAddContact()" id="insert-contact-span">Insert Contact</span>
+    </div>
+
+    <div id="contact-list"></div>
+
+    <div id="add-contact-background">
+      <div id="add-contact-div">
+      	<span onclick="closeAddContact()" id="back-add-contact">Back</span>
+        <form onsubmit="onSubmit(event)">
+  	      <input type="text" placeholder="Name" onkeyup="onChange(event, 'name')" id="name" autocomplete="off" />
+  	      <input type="text" placeholder="Number" onkeyup="onChange(event, 'number')" id="number" autocomplete="off" />
+  	      <input type="submit" value="Insert Contact" id="submit" />
+        </form>    
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+<html>

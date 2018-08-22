@@ -1,0 +1,13 @@
+{
+  "name": "contact-list",
+  "version": "1.0.0",
+  "main": "index.html",
+  "window": {
+    "title": "Contact List",
+    "width": 800,
+    "height": 500
+  },
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}
