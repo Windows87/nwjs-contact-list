@@ -1,4 +1,4 @@
-# nwjs-contact-list
+# NwJS Contact List
 A simple contact list created with NW.js and NeDB
 
 ## Screenshot
